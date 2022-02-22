@@ -1,5 +1,7 @@
 import requests
 
+headers = {'User-Agent' : 'Mobile'}
+
 url = "http://192.168.1.3/spicyx/"
 r = requests.get(url)
 print(r.text)
